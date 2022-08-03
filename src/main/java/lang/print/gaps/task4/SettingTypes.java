@@ -1,16 +1,10 @@
 package lang.print.gaps.task4;
 
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
-
-
-import org.slf4j.ILoggerFactory;
 
 import java.util.logging.Logger;
 
 public class SettingTypes {
 
-//    private static final Logger log = LoggerFactory.getLogger(SettingTypes.class);
     private static final Logger loger = Logger.getLogger(SettingTypes.class.getName());
     public static void main(String[] args) {
 
