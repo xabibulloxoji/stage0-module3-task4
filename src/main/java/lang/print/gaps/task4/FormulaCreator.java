@@ -1,11 +1,16 @@
 package lang.print.gaps.task4;
 
-import java.util.logging.Logger;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class FormulaCreator {
+    private static final Logger log = LoggerFactory.getLogger(FormulaCreator.class);
     public static void main(String[] args) {
-        int a = 10;
-        int b = 4;
-        System.out.println(((9 * (a * a)) - (5 * b) + 2 + a - 7) * ((a + b - (4 * a * b)) / 2));
+        try {
+
+        } catch (Exception e){
+            log.warn(e.getMessage());
+        }
     }
 }
